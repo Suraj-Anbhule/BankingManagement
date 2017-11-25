@@ -1,0 +1,15 @@
+.jfx-button{
+    -fx-background-color:#29B6F6; 
+    -fx-text-fill: white;
+}
+
+.jfx-button:hover{
+    -fx-background-color:#76FF03; 
+    -fx-text-fill: white;
+}
+
+
+
+#AnchorPane{
+    -fx-background-color:#FFFF8D;
+}

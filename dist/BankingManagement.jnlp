@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="BankingManagement.jnlp">
+  <information>
+    <title>BankingManagement</title>
+    <vendor>Shree</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="BankingManagement.jar" size="11228" download="eager" />
+    <jar href="lib\jfoenix.jar" size="2386535" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="BankingManagement" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="bankingmanagement.ui.addaccount.BankingManagement"  name="BankingManagement" />
+  <update check="always"/>
+</jnlp>
